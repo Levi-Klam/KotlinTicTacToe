@@ -39,7 +39,6 @@ class Game {
                         break
                     }
 
-                // I really wanted to use null-safety given how much they brag about it but it wasn't logical
                 // If a non-integer is entered:
                 } catch (e: NumberFormatException) {
                     println("Invalid input. Please enter an integer.")

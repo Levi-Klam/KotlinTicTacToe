@@ -6,9 +6,9 @@ class Game {
     // Nested list for all possible win combinations. listOf() because the values never change
     // This is used in the checkWin() function and is initialized here
     private val winCombinations = listOf(
-        listOf(0, 1, 2), // Top row
+        listOf(6, 7, 8), // Top row
         listOf(3, 4, 5), // Middle row
-        listOf(6, 7, 8), // Bottom row
+        listOf(0, 1, 2), // Bottom row
         listOf(0, 3, 6), // Left column
         listOf(1, 4, 7), // Middle column
         listOf(2, 5, 8), // Right column
